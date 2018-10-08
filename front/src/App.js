@@ -2,7 +2,15 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
-class App extends Component {
+type Props = {};
+
+function square(n: number): number {
+    return n * n;
+}
+
+console.log(square(2));
+
+class App extends Component<Props> {
   render() {
     return (
       <div className="App">
