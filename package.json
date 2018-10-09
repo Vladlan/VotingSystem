@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "gulp install",
+    "prod": "gulp prod",
+    "dev": "gulp dev"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
